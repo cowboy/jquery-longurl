@@ -3,6 +3,9 @@ QUnit.jsDump.HTML = false;
 
 $(function(){ // START CLOSURE
 
+// Update jQuery version on page.
+$('#jq_version').text( $.fn.jquery );
+
 var s = [
     'http://bacn.me/olo',
     'http://bit.ly/3zakxp',
